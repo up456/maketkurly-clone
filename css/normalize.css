@@ -1,0 +1,23 @@
+*, *::after, *::before { box-sizing: border-box; margin: 0px; padding: 0px; }
+img, video, canvas { max-width: 100%; }
+html { font-family: sans-serif; }
+body { margin: 0px; }
+audio:not([controls]) { display: none; height: 0px; }
+a { background-color: transparent; text-decoration: none; color: inherit; }
+a:active, a:hover { outline: 0px none; }
+b, strong { font-weight: 700; }
+h1 { font-size: 2em; }
+small { font-size: 80%; }
+img { border: 0px none; }
+svg:not(:root) { overflow: hidden; }
+button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0px; }
+button { overflow: visible; border-radius: 0px; }
+button, select { text-transform: none; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
+button[disabled], html input[disabled] { cursor: default; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+input { line-height: normal; }
+table { border-collapse: collapse; border-spacing: 0px; }
+td, th { padding: 0px; }
+ol, ul { list-style-type: none; }
+html, body { height: 100%; }
